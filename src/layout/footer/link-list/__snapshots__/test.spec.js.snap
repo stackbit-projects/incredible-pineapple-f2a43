@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkList renders link list correctly 1`] = `
+<ul
+  className="link_list"
+>
+  <li>
+    <a
+      href="#"
+      rel="noopener"
+      target="_blank"
+    >
+      Vestibulum vitae
+    </a>
+  </li>
+  <li>
+    <a
+      href="#"
+      rel="noopener"
+      target="_blank"
+    >
+      Pellentesque tempor venenatis
+    </a>
+  </li>
+  <li>
+    <a
+      href="#"
+      rel="noopener"
+      target="_blank"
+    >
+      Fusce molestie
+    </a>
+  </li>
+  <li>
+    <a
+      href="#"
+      rel="noopener"
+      target="_blank"
+    >
+      Etiam in lacinia dolor
+    </a>
+  </li>
+</ul>
+`;

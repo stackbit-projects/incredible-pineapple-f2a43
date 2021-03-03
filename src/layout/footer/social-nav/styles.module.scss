@@ -1,0 +1,28 @@
+@use '../../../styles/global' as *;
+
+.social_nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+
+  svg {
+    fill: var(--color-blueprint);
+    height: 100%;
+    width: 100%;
+  }
+
+  a {
+    $size: 22px;
+
+    color: var(--color-blue-gray);
+    height: $size;
+    justify-content: center;
+    margin-right: 8px;
+    width: $size;
+
+    @include hover {
+      color: var(--color-blue-gray-2);
+    }
+  }
+}

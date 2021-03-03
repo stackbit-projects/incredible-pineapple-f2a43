@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders correctly 1`] = `
+<a
+  className="button theme_default"
+  href="#"
+  rel="noopener"
+  target="_blank"
+>
+  Call to action
+</a>
+`;

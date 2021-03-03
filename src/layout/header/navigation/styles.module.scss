@@ -1,0 +1,51 @@
+@use '../../../styles/global' as *;
+@use '../../../components/button/styles.module.scss' as *;
+
+.navigation {
+  @include reset-list;
+
+  display: flex;
+
+  a {
+    color: var(--color-blueprint);
+    display: inline-block;
+    padding: 18px 0 19px;
+
+    @include media($full-navigation) {
+      padding: 11px 12px 20px;
+    }
+
+    @include hover {
+      color: var(--color-cyan);
+      text-decoration: none;
+    }
+
+    &.is_active {
+      color: var(--color-blueprint-soft);
+      text-decoration: none;
+    }
+  }
+
+  li {
+    margin-bottom: 0;
+  }
+}
+
+// --------------------------------------------------------
+
+.nav_button {
+  a {
+    @include default-button;
+
+    display: block;
+    margin: 18px 0 12px;
+    padding: 14px;
+    text-align: center;
+    width: 100%;
+
+    @include media($full-navigation) {
+      margin: 0;
+      padding: 8px 12px 8.5px;
+    }
+  }
+}
