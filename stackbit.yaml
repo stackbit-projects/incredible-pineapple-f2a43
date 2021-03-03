@@ -52,8 +52,6 @@ models:
         fields:
           - type: string
             name: heading
-          - type: markdown
-            name: body_md
       - type: object
         name: layout_flexible
         fields:
